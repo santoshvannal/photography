@@ -1,0 +1,72 @@
+body{
+background:#eee;
+}
+
+.head {
+  align: center;
+  margin-left: 120px;
+  margin-right: 120px; 
+  box-shadow: 1px 1px 15px 5px gray; /*any color you want*/
+  margin-top:-8px;
+}
+
+.imgdiv {
+  align: center;
+  margin-left: 120px;
+  margin-right: 120px; 
+  box-shadow: 1px 1px 10px 5px gray; /*any color you want*/
+  margin-top:-8px;
+}
+.clearfix:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img-title{
+	text-align: center;
+	font-family: monospace;
+	font-size: 40px;	
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.desc{
+	text-align: center;
+	font-size: 30px;
+	padding-top:0px;
+	padding-bottom:20px;
+	font-family: monospace;
+	color:gray;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  height:600px;
+}
+.rwork{
+  margin-left: 120px;
+  margin-right: 120px; 
+  box-shadow: 1px 1px 15px 5px gray;
+  color:white;
+  background:black;
+  font-size:50px;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+.hdt{
+	padding-top:150px;
+	padding-bottom:50px;
+	
+}
